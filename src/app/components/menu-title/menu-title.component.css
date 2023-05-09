@@ -1,0 +1,12 @@
+.container__menu__title {
+    color: #fff;
+}
+
+.container__menu__title h1 {
+    margin: 2% 0 ;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}

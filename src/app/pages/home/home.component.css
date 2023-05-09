@@ -1,0 +1,11 @@
+.container__articles {
+  margin: 2% 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.articles__main {
+  max-width: 50%;
+}
