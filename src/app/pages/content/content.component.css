@@ -1,10 +1,29 @@
 .container__content{
-    border: 1px solid #fff;
     max-width: 100%;
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-.container__cover {
-    border: 1px solid grey;
+.content__cover > img {
+   border: 5px solid grey;
+   width: 500px;
+   height: 100%
 }
+
+.content__description > p{
+color: grey;
+}
+
+.button-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto 0;
+    width: 100px;
+    height: 30px;
+    
+  }
