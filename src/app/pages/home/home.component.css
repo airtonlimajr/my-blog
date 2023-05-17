@@ -1,9 +1,9 @@
 .container__articles {
-  margin: 2% 0;
-
+  margin: 2% auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .articles__main {
